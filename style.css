@@ -333,6 +333,13 @@ body {
     text-align: center;
 }
 
+.about_page p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    font-size: 1rem;
+    text-align: center;
+}
+
 .languages h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
