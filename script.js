@@ -3,11 +3,4 @@ var typed = new Typed('.type', {
     typeSpeed: 60,
     backSpeed: 60,
     loop: true
-})
-
-var typed2 = new Typed('.type2', {
-    strings: ['Websites.', 'Discord Bots.', 'Designs.'],
-    typeSpeed: 60,
-    backSpeed: 60,
-    loop: true
-})
+});
