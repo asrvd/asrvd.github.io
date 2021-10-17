@@ -10,10 +10,10 @@
     <script src="/script.js" defer></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="/loaders.min.css">
-    <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Ashish</title>
+    <title>ashish.</title>
 </head>
 <body>
     <div class="navbar-container">
@@ -21,7 +21,8 @@
             <div class="name-cont">
                 <h2 class="kanjilogo" href="" title="Sakura no Hana">桜の花</h2>
             </div>
-            <div class="nav-links">
+            <button class="nav-btn" id="nav-btn"><i class="fas fa-bars"></i></button>
+            <div class="nav-links hidden">
                 <ul>
                     <li><a href='#intro-container' class="navlink">Home</a></li>
                     <li><a href="#about" class="navlink">About</a></li>
@@ -65,20 +66,27 @@
     <section class="languages">   
         <h2>Languages</h2>
         <ul class="lang">
-            <li><i class="fab fa-python"></i></li>
-            <li><i class="fab fa-html5"></i></li>
-            <li><i class="fab fa-css3"></i></li>
-            <li><i class="fab fa-js"></i></li>
+            <div class="lang-row-1">
+                <li><i class="fab fa-python"></i></li>
+                <li><i class="fab fa-html5"></i></li>
+            </div>
+            <div class="lang-row-2">
+                <li><i class="fab fa-css3"></i></li>
+                <li><i class="fab fa-js"></i></li>
+            </div>
         </ul>
     </section>
     <section class="tech">
         <h2>Tech Stack</h2>
         <ul class="ts">
-            <li><img src="/assets/images/heroku.png" alt=""></li>
-            <li><img src="/assets/images/vs-code.png" alt=""></li>
-            <li><img src="/assets/images/replit.png" alt=""></li>
-            <li><img src="/assets/images/git.png" alt=""></li>
-            <li><img src="/assets/images/codepen.png" alt=""></li>
+            <div class="ts-row-1">
+                <li><img src="/assets/images/heroku.png" alt=""></li>
+                <li><img src="/assets/images/vs-code.png" alt=""></li>
+            </div>
+            <div class="ts-row-2">
+                <li><img src="/assets/images/git.png" alt=""></li>
+                <li><img src="/assets/images/codepen.png" alt=""></li>
+            </div>
         </ul>
     </section>
     <section class="learning">
@@ -97,7 +105,7 @@
                 </div>
                 <div class="project-body">
                     <h2>Kanna Chan</h2>
-                    <p>Kanna Chan is a Multipurpose <strong>Verified</strong> Discord Bot with some Fun Commands and Feautures like marriage, games, roleplay and much more.</p>
+                    <p>Kanna Chan is a Multipurpose <strong>Verified</strong> Discord Bot with some Fun Commands and Feautures like marriage, games and much more.</p>
                     <div class="button-cont">
                         <a class="btn" href="https://discord.com/api/oauth2/authorize?client_id=857835279259664403&permissions=138445974593&scope=bot%20applications.commands" target="blank"><i class="fas fa-external-link-alt"></i> Invite</a>
                         <a class="btn" href="https://github.com/asheeeshh/Kanna-Chan" target="blank"><i class="fas fa-external-link-alt"></i> GitHub</a>
