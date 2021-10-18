@@ -5,7 +5,7 @@ const btn = document.getElementById('nav-btn');
 const icon = document.querySelector('.fas.fa-bars');
 
 var typed = new Typed('.type', {
-    strings: ['Web Developer.', 'Discord Verified Bot Developer.', 'Designer.', 'Pythoneer.', 'Content Creator', 'Student'],
+    strings: ['Web Developer.', 'Discord Verified Bot Developer.', 'Designer.', 'Pythoneer.', 'Content Creator.', 'Student.'],
     typeSpeed: 60,
     backSpeed: 60,
     loop: true
