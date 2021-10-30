@@ -528,6 +528,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 .project .project-body {
     display: flex;
     flex-direction: column;
@@ -551,6 +552,12 @@ body {
     padding: 0.5rem 1rem;
     cursor: pointer;
     font-size: 0.7rem;
+}
+.button-cont .btn:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color:turquoise;
+
+   
 }
 
 .image-cont {
