@@ -293,7 +293,7 @@ body {
 
 .social_links ul li a:hover {
     color: turquoise;
-    font-size: 2rem;
+    scale: 1.5;
 }
 
 .social_links ul li a:hover i {
@@ -310,7 +310,7 @@ body {
     margin: 1rem;
     border: 2px solid turquoise;
     border-radius: 50%;
-    transition: 1s ease;
+    transition: 500ms ease-in-out;
 }
 
 .about_page {
